@@ -1,0 +1,224 @@
+/* _content/Sniggers/Pages/Index.cshtml.rz.scp.css */
+@font-face {
+    font-family: 'Lilita One';
+    src: local('Lilita One'), local('Lilita One'), url(../wwwroot/Fonts/Pusia-Bold.otf);
+}
+p[b-9c8p2di2hk] {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+h1[b-9c8p2di2hk] {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+
+.indent[b-9c8p2di2hk] 
+{
+    height: 10px;
+}
+.bigIndent[b-9c8p2di2hk]{
+    height: 100px;
+}
+
+.frame[b-9c8p2di2hk] {
+    display: block;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #0084d1;
+    border-style: outset;
+    background-color: #6ecaff;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+.frameOnInputField[b-9c8p2di2hk] {
+    border-radius: 5px;
+    background-color: white;
+    border-width: 2px;
+    border-color: #0084d1;
+    border-style: outset;
+    background-color: #6ecaff;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+.parent[b-9c8p2di2hk] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display-none[b-9c8p2di2hk]{
+    display: none;
+}
+
+.bigParent[b-9c8p2di2hk] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: none;
+}
+
+.block[b-9c8p2di2hk] {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #6ecaff;
+    border-width: 2px;
+    border-color: #031087;
+    border-style: outset;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.image_bg[b-9c8p2di2hk] {
+    height: 475px;
+    width: 350px;
+    background-color: #42baff;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    border-width: 2px;
+    border-color: #1b7bb3;
+    border-style: outset;
+}
+.image[b-9c8p2di2hk] {
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 425px;
+    width: 300px;
+    background-image: url(/Pages/images/Leon.png);
+}
+.button_center[b-9c8p2di2hk]{
+    margin-left: 40%;
+    width: auto;
+    height: auto;
+}
+/* _content/Sniggers/Pages/Privacy.cshtml.rz.scp.css */
+p[b-uz89aigc1j] {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 1.1;
+    margin: 10px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+h1[b-uz89aigc1j] {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+.indent[b-uz89aigc1j]{
+    height: 15px;
+}
+.frame[b-uz89aigc1j] {
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #0084d1;
+    border-style: outset;
+    background-color: #6ecaff;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    height: auto;
+}
+/* _content/Sniggers/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-c9sm9xcmcl] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-c9sm9xcmcl] {
+  color: #0077cc;
+}
+
+.btn-primary[b-c9sm9xcmcl] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-c9sm9xcmcl], .nav-pills .show > .nav-link[b-c9sm9xcmcl] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-bottom[b-c9sm9xcmcl] {
+    border-bottom: 2px solid;
+    border-bottom-color: #000b6e;
+}
+
+.box-shadow[b-c9sm9xcmcl] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-c9sm9xcmcl] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer[b-c9sm9xcmcl] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    background-color: black;
+    height: 30px;
+    border-width: 0px;
+}
+p[b-c9sm9xcmcl] {
+    font-family: 'Times New Roman';
+    color: white;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0887ff;
+    font-size: 20px;
+}
+h1[b-c9sm9xcmcl] {
+    font-family: 'Times New Roman';
+    color: white;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0887ff;
+    font-size: 24px;
+}
+/* _content/Sniggers/Pages/UserData/Index.cshtml.rz.scp.css */
+.frame[b-qh8wmkzzg6] {
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #0084d1;
+    border-style: outset;
+    background-color: #6ecaff;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    height: auto;
+}
+
+th[b-qh8wmkzzg6] {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+td[b-qh8wmkzzg6] {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+h1[b-qh8wmkzzg6] {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0084d1;
+}

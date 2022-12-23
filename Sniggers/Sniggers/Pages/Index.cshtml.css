@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Lilita One';
+    src: local('Lilita One'), local('Lilita One'), url(../wwwroot/Fonts/Pusia-Bold.otf);
+}
+p {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+h1 {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+
+.indent 
+{
+    height: 10px;
+}
+.bigIndent{
+    height: 100px;
+}
+
+.frame {
+    display: block;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #0084d1;
+    border-style: outset;
+    background-color: #6ecaff;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+.frameOnInputField {
+    border-radius: 5px;
+    background-color: white;
+    border-width: 2px;
+    border-color: #0084d1;
+    border-style: outset;
+    background-color: #6ecaff;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display-none{
+    display: none;
+}
+
+.bigParent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: none;
+}
+
+.block {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #6ecaff;
+    border-width: 2px;
+    border-color: #031087;
+    border-style: outset;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.image_bg {
+    height: 475px;
+    width: 350px;
+    background-color: #42baff;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    border-width: 2px;
+    border-color: #1b7bb3;
+    border-style: outset;
+}
+.image {
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 425px;
+    width: 300px;
+    background-image: url(/Pages/images/Leon.png);
+}
+.button_center{
+    margin-left: 40%;
+    width: auto;
+    height: auto;
+}

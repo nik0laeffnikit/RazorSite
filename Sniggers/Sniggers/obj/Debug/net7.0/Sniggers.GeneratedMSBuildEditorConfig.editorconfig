@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sniggers
+build_property.RootNamespace = Sniggers
+build_property.ProjectDir = C:\Users\nikne\source\repos\Sniggers\Sniggers\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nikne\source\repos\Sniggers\Sniggers
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/CharacterData/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyRGF0YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/CharacterData/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyRGF0YVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/CharacterData/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyRGF0YVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/CharacterData/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyRGF0YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/CharacterData/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyRGF0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/UserData/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/UserData/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/UserData/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/UserData/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9c8p2di2hk
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-uz89aigc1j
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c9sm9xcmcl
+
+[C:/Users/nikne/source/repos/Sniggers/Sniggers/Pages/UserData/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qh8wmkzzg6

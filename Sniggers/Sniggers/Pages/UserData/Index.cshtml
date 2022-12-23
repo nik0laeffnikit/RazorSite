@@ -1,0 +1,45 @@
+﻿@page
+@model Sniggers.Pages.UserData.IndexModel
+
+@{
+    ViewData["Title"] = "База данных заскамленных мамонтов(пользователей)";
+}
+
+<h1>База данных заскамленных мамонтов(пользователей)</h1>
+
+<table class="table frame">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UsersData[0].CardNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsersData[0].MMYY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsersData[0].CVC)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.UsersData) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CardNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MMYY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CVC)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Изменить</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Детали</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

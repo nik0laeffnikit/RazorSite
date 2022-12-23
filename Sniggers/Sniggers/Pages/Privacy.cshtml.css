@@ -1,0 +1,26 @@
+p {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 1.1;
+    margin: 10px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+h1 {
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px #0084d1;
+}
+.indent{
+    height: 15px;
+}
+.frame {
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #0084d1;
+    border-style: outset;
+    background-color: #6ecaff;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    height: auto;
+}

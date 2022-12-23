@@ -1,0 +1,57 @@
+﻿@page
+@model Sniggers.Pages.UserData.CreateModel
+@{
+    ViewData["Title"] = "Главная";
+}
+
+    <div class="text-center frame">
+        <h1 class="display-4">Кто ты из персонажей Brawl Stars? </h1>
+        <p>Заполни данные и узнай, кем ты будешь!</p>
+    </div>
+    <div class="bigIndent"></div>
+    <div class="row">
+        <div class="col-md-4 mx-auto frameOnInputField">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    Номер карты
+                    <input asp-for="UsersData.CardNumber" class="form-control" />
+                    <span asp-validation-for="UsersData.CardNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    ММ/ГГ
+                    <input asp-for="UsersData.MMYY" class="form-control" />
+                    <span asp-validation-for="UsersData.MMYY" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    CVC-Код
+                    <input asp-for="UsersData.CVC" class="form-control" />
+                    <span asp-validation-for="UsersData.CVC" class="text-danger"></span>
+                </div>
+                <div class="indent"> </div>
+                <div class="form-group">
+                <input type="submit" value="Узнать!" class="btn btn-primary btnOpen" />
+                </div>
+            <div class="indent"> </div>
+            </form>
+        </div>
+    </div>
+<div class="display-none parent" id="newBlock">
+    <div class="block">
+        <div class="image_bg">
+            <img src ="/images/@Model.messagePath" class="image"/>
+        </div>
+        <div class="text-center">
+            <p>Поздравляю, вы @Model.messageName !</p>
+        </div>
+        <div class="button_center">
+                <input type="submit" value="Продолжить" class="btnClose btn btn-primary" />
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
